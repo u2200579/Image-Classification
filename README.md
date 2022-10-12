@@ -12,6 +12,4 @@ T6: connective
 
 Comprehensive EDA is carried out to identify features that correlate with the target variable and model around them. This includes mapping the images to Haematoxylin-Eosin-DAB(HED) space as the H-channel 'stains' the image to highlight the cells we are interested in. Gray Level Co-occurence Matrix features were also found to add value to the predictor.
 
-Different approaches are analysed, from classic Ordinary Least Squares(OLS) regression to a pre-trained ResNet18 model to see what works best for this task.
-
-Multiple evaluation metrics such as R2 score, RMSE, Pearson Correlation Coefficient and Spearman Correlation Coefficient are considered to capture a robust picture of how the models perform.
+Different approaches are analysed, from classic Ordinary Least Squares(OLS) regression to a novel Convolutional Neural Network model to see what works best for this task.
