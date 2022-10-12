@@ -3,12 +3,12 @@ This work aims to predict counts of different cell types from images of human bo
 
 The different cell types in focus are listed below:
 
-### T1: neutrophil
-### T2: epithelial
-### T3: lymphocyte
-### T4: plasma
-### T5: eosinophil
-### T6: connective
+- T1: neutrophil
+- T2: epithelial
+- T3: lymphocyte
+- T4: plasma
+- T5: eosinophil
+- T6: connective
 
 Comprehensive EDA is carried out to identify features that correlate with the target variable and model around them. This includes mapping the images to Haematoxylin-Eosin-DAB(HED) space as the H-channel 'stains' the image to highlight the cells we are interested in. Gray Level Co-occurence Matrix features were also found to add value to the predictor.
 
